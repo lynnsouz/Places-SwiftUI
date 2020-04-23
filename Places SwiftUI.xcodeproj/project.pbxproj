@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C9F9C62245212FA00069BBC /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F9C61245212FA00069BBC /* City.swift */; };
 		3CB39F0B2451FE7700B6AD0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB39F0A2451FE7700B6AD0A /* AppDelegate.swift */; };
 		3CB39F0D2451FE7700B6AD0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB39F0C2451FE7700B6AD0A /* SceneDelegate.swift */; };
 		3CB39F0F2451FE7700B6AD0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB39F0E2451FE7700B6AD0A /* ContentView.swift */; };
 		3CB39F112451FE7A00B6AD0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB39F102451FE7A00B6AD0A /* Assets.xcassets */; };
 		3CB39F142451FE7A00B6AD0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB39F132451FE7A00B6AD0A /* Preview Assets.xcassets */; };
 		3CB39F172451FE7A00B6AD0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB39F152451FE7A00B6AD0A /* LaunchScreen.storyboard */; };
+		3CB39F1F245201CB00B6AD0A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB39F1E245201CB00B6AD0A /* CircleImage.swift */; };
+		3CB39F21245204C000B6AD0A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB39F20245204C000B6AD0A /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C9F9C61245212FA00069BBC /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		3CB39F072451FE7700B6AD0A /* Places SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Places SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB39F0A2451FE7700B6AD0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CB39F0C2451FE7700B6AD0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		3CB39F132451FE7A00B6AD0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3CB39F162451FE7A00B6AD0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CB39F182451FE7A00B6AD0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB39F1E245201CB00B6AD0A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		3CB39F20245204C000B6AD0A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				3CB39F152451FE7A00B6AD0A /* LaunchScreen.storyboard */,
 				3CB39F182451FE7A00B6AD0A /* Info.plist */,
 				3CB39F122451FE7A00B6AD0A /* Preview Content */,
+				3CB39F1E245201CB00B6AD0A /* CircleImage.swift */,
+				3CB39F20245204C000B6AD0A /* MapView.swift */,
+				3C9F9C61245212FA00069BBC /* City.swift */,
 			);
 			path = "Places SwiftUI";
 			sourceTree = "<group>";
@@ -147,6 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CB39F0B2451FE7700B6AD0A /* AppDelegate.swift in Sources */,
+				3CB39F1F245201CB00B6AD0A /* CircleImage.swift in Sources */,
+				3C9F9C62245212FA00069BBC /* City.swift in Sources */,
+				3CB39F21245204C000B6AD0A /* MapView.swift in Sources */,
 				3CB39F0D2451FE7700B6AD0A /* SceneDelegate.swift in Sources */,
 				3CB39F0F2451FE7700B6AD0A /* ContentView.swift in Sources */,
 			);

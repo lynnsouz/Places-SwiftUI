@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1000,
+        "name": "New York City",
+        "imageName": "NYC",
+        "state": "New York",
+        "contry": "EUA 🇺🇸",
+        "coordinates": {
+            "latitude": 40.7591212,
+            "longitude": -74.0042501
+        }
+        
+    },
+    {
+        "id": 1001,
+        "name": "Miami",
+        "imageName": "Miami",
+        "state": "Florida",
+        "contry": "EUA 🇺🇸",
+        "coordinates": {
+            "latitude": 25.7784254,
+            "longitude": -80.266927
+        }
+    }    ,
+    {
+        "id": 1002,
+        "name": "São Paulo",
+        "imageName": "SaoPaulo",
+        "state": "São Paulo",
+        "contry": "BRA 🇧🇷",
+        "coordinates": {
+            "latitude": -23.5630164,
+            "longitude": -46.6566169
+        }
+    },
+    {
+        "id": 1003,
+        "name": "Brasília",
+        "imageName": "bsb",
+        "state": "Distrito Federal",
+        "contry": "BRA 🇧🇷",
+        "coordinates": {
+            "latitude": -15.7925501,
+            "longitude": -47.8874471
+        }
+    },
+    {
+        "id": 1004,
+        "name": "Curitiba",
+        "imageName": "curitiba",
+        "state": "Paraná",
+        "contry": "BRA 🇧🇷",
+        "coordinates": {
+            "latitude": -25.4562375,
+            "longitude": -49.2692353
+        }
+    },
+    {
+        "id": 1005,
+        "name": "Florianópolis",
+        "imageName": "floripa",
+        "state": "Santa Catarina",
+        "contry": "BRA 🇧🇷",
+        "coordinates": {
+            "latitude": -27.6310815,
+            "longitude": -48.585677
+        }
+    }
+]

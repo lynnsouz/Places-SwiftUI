@@ -9,7 +9,7 @@ Application based on Swift UI showing some places I've been.
 [v 1.0.0](https://github.com/lynnsouz/Places-SwiftUI/releases/tag/1.0.0)
 
 
-<img src=gif1.0.gif" style="height:500px;" height=500 alt="giphy"/>
+<img src="gif1.0.gif" style="height:500px;" height=500 alt="giphy"/>
 
 
 [v 2.0.0](https://github.com/lynnsouz/Places-SwiftUI/releases/tag/2.0.0) Building Lists and Navigation.

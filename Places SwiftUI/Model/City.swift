@@ -19,6 +19,8 @@ struct City: Hashable, Codable, Identifiable {
     var state: String
     var contry: String
     
+    var isFavorite = false
+    
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(
             latitude: coordinates.latitude,

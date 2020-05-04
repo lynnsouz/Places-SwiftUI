@@ -20,6 +20,12 @@ struct CityRow: View {
             Text(city.name)
                 .font(.title)
             Spacer()
+            if city.isFavorite {
+                Image(systemName: "star.fill")
+                    .imageScale(.large)
+                    .foregroundColor(.yellow)
+                
+            }
         }
     }
 }

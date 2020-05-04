@@ -9,14 +9,22 @@
 import SwiftUI
 
 struct CityList: View {
+    
+    @EnvironmentObject var userData: UserData
+    
     var body: some View {
         NavigationView {
-            List(placesData.sorted(by: { $0.name < $1.name })) { city in
-                NavigationLink(destination: CityDetails(city: city)) {
-                    CityRow(city: city)
+            List {
+                Toggle(isOn: $userData.showFavoritesOnly) {
+                    Text("Favorites only")
                 }
+                ForEach(userData.cities.filter({!self.userData.showFavoritesOnly || $0.isFavorite})) { city in
+                        NavigationLink(destination: CityDetails(city: city)) {
+                            CityRow(city: city)
+                    }
+                }
+                .navigationBarTitle(Text("Cities"))
             }
-            .navigationBarTitle(Text("Cities"))
         }
     }
 }
@@ -24,5 +32,6 @@ struct CityList: View {
 struct CityList_Previews: PreviewProvider {
     static var previews: some View {
         CityList()
+            .environmentObject(UserData())
     }
 }

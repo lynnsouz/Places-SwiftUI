@@ -11,7 +11,7 @@ import SwiftUI
 struct CityList: View {
     var body: some View {
         NavigationView {
-            List(placesData) { city in
+            List(placesData.sorted(by: { $0.name < $1.name })) { city in
                 NavigationLink(destination: CityDetails(city: city)) {
                     CityRow(city: city)
                 }

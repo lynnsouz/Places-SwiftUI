@@ -16,7 +16,7 @@ struct CityDetails: View {
         VStack() {
             ZStack(alignment: .bottom) {
                 MapView(coordinate: city.locationCoordinate)
-                    .frame(height: 300)
+                    .frame(height: 400)
                 CircleImage(image: city.image)
                     .offset(y: 100)
             }

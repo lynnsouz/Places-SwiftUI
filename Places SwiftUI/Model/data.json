@@ -65,5 +65,38 @@
             "latitude": -27.6310815,
             "longitude": -48.585677
         }
+    },
+    {
+        "id": 1006,
+        "name": "Goiania",
+        "imageName": "Goiania",
+        "state": "Goiás",
+        "contry": "BRA 🇧🇷",
+        "coordinates": {
+            "latitude": -16.647826,
+            "longitude": -49.2912182
+        }
+    },
+    {
+        "id": 1007,
+        "name": "Belo Horizonte",
+        "imageName": "BH",
+        "state": "Minas Gerais",
+        "contry": "BRA 🇧🇷",
+        "coordinates": {
+            "latitude": -19.8880508,
+            "longitude": -43.9884927
+        }
+    },
+    {
+        "id": 1008,
+        "name": "Rio de Janeiro",
+        "imageName": "RJ",
+        "state": "Rio de Janeiro",
+        "contry": "BRA 🇧🇷",
+        "coordinates": {
+            "latitude": -22.9399113,
+            "longitude": -43.5149302
+        }
     }
 ]

@@ -15,9 +15,10 @@ struct CityRow: View {
         HStack {
             city.image
                 .resizable()
-                .frame(width: 50, height: 50)
+                .frame(width: 56, height: 56)
                 .scaledToFill()
             Text(city.name)
+                .font(.title)
             Spacer()
         }
     }
@@ -32,6 +33,6 @@ struct CityRow_Previews: PreviewProvider {
             CityRow(city: placesData[3])
             CityRow(city: placesData[4])
         }
-        .previewLayout(.fixed(width: 300, height: 70))
+        .previewLayout(.fixed(width: 300, height: 80))
     }
 }

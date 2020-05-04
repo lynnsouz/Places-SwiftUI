@@ -12,7 +12,7 @@ struct CityList: View {
     var body: some View {
         NavigationView {
             List(placesData) { city in
-                NavigationLink(destination: ContentView(city: city)) {
+                NavigationLink(destination: CityDetails(city: city)) {
                     CityRow(city: city)
                 }
             }

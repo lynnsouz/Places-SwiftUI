@@ -15,7 +15,7 @@ Application based on Swift UI showing some places I've been.
 [v 2.0.0](https://github.com/lynnsouz/Places-SwiftUI/releases/tag/2.0.0) Building Lists and Navigation.
 
 
-<img src="v2.PNG" style="height:500px;" height=500 alt="v2"/>
+<img src="gif2.0.0.gif" style="height:500px;" height=500 alt="gif2.0.0.gif"/>
 
 
 [v 3.0.0](https://github.com/lynnsouz/Places-SwiftUI/releases/tag/3.0.0) Handling User Input.

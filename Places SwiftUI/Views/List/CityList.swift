@@ -13,25 +13,26 @@ struct CityList: View {
     @EnvironmentObject var userData: UserData
     
     var body: some View {
-        NavigationView {
-            List {
-                Toggle(isOn: $userData.showFavoritesOnly) {
-                    Text("Favorites only")
-                }
-                ForEach(userData.cities.filter({!self.userData.showFavoritesOnly || $0.isFavorite})) { city in
-                        NavigationLink(destination: CityDetails(city: city)) {
-                            CityRow(city: city)
-                    }
-                }
-                .navigationBarTitle(Text("Cities"))
+        List {
+            Toggle(isOn: $userData.showFavoritesOnly) {
+                Text("Favorites only")
             }
+            ForEach(userData.cities.filter({!self.userData.showFavoritesOnly || $0.isFavorite})) { city in
+                NavigationLink(destination: CityDetails(city: city)) {
+                    CityRow(city: city)
+                }
+            }
+            .navigationBarTitle(Text("Cities"))
         }
     }
 }
 
 struct CityList_Previews: PreviewProvider {
     static var previews: some View {
-        CityList()
-            .environmentObject(UserData())
+        NavigationView {
+            CityList()
+                .environmentObject(UserData())
+        }
+        
     }
 }

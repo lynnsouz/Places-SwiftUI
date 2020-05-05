@@ -20,6 +20,7 @@ struct City: Hashable, Codable, Identifiable {
     var contry: String
     
     var isFavorite = false
+    var isFeatured = false
     
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(

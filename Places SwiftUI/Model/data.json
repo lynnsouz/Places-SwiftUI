@@ -2,10 +2,11 @@
     {
         "id": 1000,
         "isFavorite": false,
+        "isFeatured": true,
         "name": "New York City",
         "imageName": "NYC",
         "state": "New York",
-        "contry": "EUA 🇺🇸",
+        "contry": "USA 🇺🇸",
         "coordinates": {
             "latitude": 40.7591212,
             "longitude": -74.0042501
@@ -15,10 +16,11 @@
     {
         "id": 1001,
         "isFavorite": false,
+        "isFeatured": false,
         "name": "Miami",
         "imageName": "Miami",
         "state": "Florida",
-        "contry": "EUA 🇺🇸",
+        "contry": "USA 🇺🇸",
         "coordinates": {
             "latitude": 25.7784254,
             "longitude": -80.266927
@@ -27,6 +29,7 @@
     {
         "id": 1002,
         "isFavorite": false,
+        "isFeatured": true,
         "name": "São Paulo",
         "imageName": "SaoPaulo",
         "state": "São Paulo",
@@ -39,6 +42,7 @@
     {
         "id": 1003,
         "isFavorite": true,
+        "isFeatured": true,
         "name": "Brasília",
         "imageName": "bsb",
         "state": "Distrito Federal",
@@ -51,6 +55,7 @@
     {
         "id": 1004,
         "isFavorite": false,
+        "isFeatured": false,
         "name": "Curitiba",
         "imageName": "curitiba",
         "state": "Paraná",
@@ -63,6 +68,7 @@
     {
         "id": 1005,
         "isFavorite": false,
+        "isFeatured": false,
         "name": "Florianópolis",
         "imageName": "floripa",
         "state": "Santa Catarina",
@@ -75,6 +81,7 @@
     {
         "id": 1006,
         "isFavorite": false,
+        "isFeatured": false,
         "name": "Goiania",
         "imageName": "Goiania",
         "state": "Goiás",
@@ -87,6 +94,7 @@
     {
         "id": 1007,
         "isFavorite": false,
+        "isFeatured": false,
         "name": "Belo Horizonte",
         "imageName": "BH",
         "state": "Minas Gerais",
@@ -99,6 +107,7 @@
     {
         "id": 1008,
         "isFavorite": false,
+        "isFeatured": false,
         "name": "Rio de Janeiro",
         "imageName": "RJ",
         "state": "Rio de Janeiro",
@@ -106,6 +115,71 @@
         "coordinates": {
             "latitude": -22.9399113,
             "longitude": -43.5149302
+        }
+    },
+    {
+        "id": 1009,
+        "isFavorite": false,
+        "isFeatured": false,
+        "name": "Isla San Andrés",
+        "imageName": "SanAndres",
+        "state": "San Andrés",
+        "contry": "COL 🇨🇴",
+        "coordinates": {
+            "latitude": 12.5404561,
+            "longitude": -81.7392736
+        }
+    },
+    {
+        "id": 1010,
+        "isFavorite": false,
+        "isFeatured": false,
+        "name": "Bogotá",
+        "imageName": "Bogota",
+        "state": "Distrito Capital",
+        "contry": "COL 🇨🇴",
+        "coordinates": {
+            "latitude": 4.6486259,
+            "longitude": -74.2478919
+        }
+    },
+    {
+        "id": 1011,
+        "isFavorite": false,
+        "isFeatured": false,
+        "name": "Washington, D.C.",
+        "imageName": "WashingtonDC",
+        "state": "Distrito de Columbia",
+        "contry": "USA 🇺🇸",
+        "coordinates": {
+            "latitude": 38.8927178,
+            "longitude": -77.0775273
+        }
+    },
+    {
+        "id": 1012,
+        "isFavorite": false,
+        "isFeatured": false,
+        "name": "Cancún",
+        "imageName": "cancun",
+        "state": "Quintana Roo",
+        "contry": "MEX 🇲🇽",
+        "coordinates": {
+            "latitude": 21.142286,
+            "longitude": -86.8732802
+        }
+    },
+    {
+        "id": 1013,
+        "isFavorite": false,
+        "isFeatured": false,
+        "name": "Ciudad de México",
+        "imageName": "MexicoCity",
+        "state": "Mexico City",
+        "contry": "MEX 🇲🇽",
+        "coordinates": {
+            "latitude": 19.3926244,
+            "longitude": -99.2345367
         }
     }
 ]

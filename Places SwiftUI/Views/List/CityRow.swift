@@ -33,11 +33,11 @@ struct CityRow: View {
 struct CityRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            CityRow(city: placesData[0])
-            CityRow(city: placesData[1])
-            CityRow(city: placesData[2])
-            CityRow(city: placesData[3])
-            CityRow(city: placesData[4])
+            CityRow(city: citiesData[0])
+            CityRow(city: citiesData[1])
+            CityRow(city: citiesData[2])
+            CityRow(city: citiesData[3])
+            CityRow(city: citiesData[4])
         }
         .previewLayout(.fixed(width: 300, height: 80))
     }

@@ -28,7 +28,7 @@ struct PageView<Page: View>: View {
 
 struct PageView_Previews: PreviewProvider {
     static var previews: some View {
-        PageView(placesData.map { FeaturedView(cities: $0) })
+        PageView(citiesData.map { FeaturedView(cities: $0) })
             .aspectRatio(3/2, contentMode: .fit)
     }
 }

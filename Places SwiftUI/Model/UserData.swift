@@ -11,5 +11,5 @@ import Combine
 
 final class UserData: ObservableObject  {
     @Published var showFavoritesOnly = false
-    @Published var cities: [City] = placesData.sorted(by: { $0.name < $1.name })
+    @Published var cities: [City] = citiesData.sorted(by: { $0.name < $1.name })
 }

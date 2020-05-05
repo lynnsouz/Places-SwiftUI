@@ -59,6 +59,6 @@ struct CityDetails: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        CityDetails(city: placesData[3])
+        CityDetails(city: citiesData[3])
     }
 }

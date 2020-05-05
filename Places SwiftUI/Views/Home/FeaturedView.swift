@@ -41,7 +41,7 @@ struct FeaturedView: View {
 
 struct FeaturedCity_Previews: PreviewProvider {
     static var previews: some View {
-        FeaturedView(cities: placesData[0])
+        FeaturedView(cities: citiesData[0])
             .aspectRatio(3/2, contentMode: .fit)
     }
 }

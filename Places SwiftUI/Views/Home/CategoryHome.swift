@@ -14,13 +14,13 @@ struct CategoryHome: View {
     
     var contries: [String: [City]] {
         Dictionary(
-            grouping: placesData.sorted(by: { $0.name < $1.name }),
+            grouping: citiesData.sorted(by: { $0.name < $1.name }),
             by: { $0.contry }
         )
     }
     
     var featured: [City] {
-        placesData.filter { $0.isFeatured }.sorted(by: { $0.name < $1.name })
+        citiesData.filter { $0.isFeatured }.sorted(by: { $0.name < $1.name })
     }
     
     @State var showingProfile = false

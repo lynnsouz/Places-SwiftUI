@@ -8,7 +8,7 @@
 
 import Foundation
 
-let placesData: [City] = load("data.json")
+let citiesData: [City] = load("citiesData.json")
 
 func load<T:Decodable>(_ filename:String, as type:T.Type = T.self) -> T {
     let data:Data

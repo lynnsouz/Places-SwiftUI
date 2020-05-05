@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3C63F89A2460522900EBA3A7 /* CityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C63F8992460522900EBA3A7 /* CityRow.swift */; };
 		3C63F89F2460564F00EBA3A7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C63F89E2460564F00EBA3A7 /* Data.swift */; };
-		3C63F8A12460567000EBA3A7 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C63F8A02460567000EBA3A7 /* data.json */; };
+		3C63F8A12460567000EBA3A7 /* citiesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C63F8A02460567000EBA3A7 /* citiesData.json */; };
 		3C63F8A3246058C200EBA3A7 /* CityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C63F8A2246058C200EBA3A7 /* CityList.swift */; };
 		3C87201024606D7B00839B48 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3C87200F24606D7B00839B48 /* README.md */; };
 		3C9F9C62245212FA00069BBC /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F9C61245212FA00069BBC /* City.swift */; };
@@ -33,7 +33,7 @@
 /* Begin PBXFileReference section */
 		3C63F8992460522900EBA3A7 /* CityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityRow.swift; sourceTree = "<group>"; };
 		3C63F89E2460564F00EBA3A7 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		3C63F8A02460567000EBA3A7 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		3C63F8A02460567000EBA3A7 /* citiesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = citiesData.json; sourceTree = "<group>"; };
 		3C63F8A2246058C200EBA3A7 /* CityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityList.swift; sourceTree = "<group>"; };
 		3C87200F24606D7B00839B48 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3C9F9C61245212FA00069BBC /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		3CB04ECB2460B8DC00A9EDBB /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		3CB04ECD2461A00900A9EDBB /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		3CB04ECF2461A06900A9EDBB /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
-		3CB39F072451FE7700B6AD0A /* Places SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Places SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB39F072451FE7700B6AD0A /* Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Places.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB39F0A2451FE7700B6AD0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CB39F0C2451FE7700B6AD0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3CB39F0E2451FE7700B6AD0A /* CityDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetails.swift; sourceTree = "<group>"; };
@@ -72,7 +72,6 @@
 			children = (
 				3C9F9C61245212FA00069BBC /* City.swift */,
 				3C63F89E2460564F00EBA3A7 /* Data.swift */,
-				3C63F8A02460567000EBA3A7 /* data.json */,
 				3CB04EC62460884700A9EDBB /* UserData.swift */,
 			);
 			path = Model;
@@ -132,7 +131,7 @@
 		3CB39F082451FE7700B6AD0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3CB39F072451FE7700B6AD0A /* Places SwiftUI.app */,
+				3CB39F072451FE7700B6AD0A /* Places.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,13 +139,14 @@
 		3CB39F092451FE7700B6AD0A /* Places SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				3CB39F0A2451FE7700B6AD0A /* AppDelegate.swift */,
-				3CB39F102451FE7A00B6AD0A /* Assets.xcassets */,
 				3CB39F182451FE7A00B6AD0A /* Info.plist */,
+				3CB39F0A2451FE7700B6AD0A /* AppDelegate.swift */,
+				3CB39F0C2451FE7700B6AD0A /* SceneDelegate.swift */,
+				3CB39F102451FE7A00B6AD0A /* Assets.xcassets */,
 				3CB39F152451FE7A00B6AD0A /* LaunchScreen.storyboard */,
 				3C63F896245DC30800EBA3A7 /* Model */,
 				3CB39F122451FE7A00B6AD0A /* Preview Content */,
-				3CB39F0C2451FE7700B6AD0A /* SceneDelegate.swift */,
+				3CE70902246213FF002FEFF6 /* Recources */,
 				3C63F8A424605FC100EBA3A7 /* Views */,
 			);
 			path = "Places SwiftUI";
@@ -158,6 +158,14 @@
 				3CB39F132451FE7A00B6AD0A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CE70902246213FF002FEFF6 /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				3C63F8A02460567000EBA3A7 /* citiesData.json */,
+			);
+			path = Recources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,7 +185,7 @@
 			);
 			name = "Places SwiftUI";
 			productName = "Places SwiftUI";
-			productReference = 3CB39F072451FE7700B6AD0A /* Places SwiftUI.app */;
+			productReference = 3CB39F072451FE7700B6AD0A /* Places.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -222,7 +230,7 @@
 				3CB39F142451FE7A00B6AD0A /* Preview Assets.xcassets in Resources */,
 				3C87201024606D7B00839B48 /* README.md in Resources */,
 				3CB39F112451FE7A00B6AD0A /* Assets.xcassets in Resources */,
-				3C63F8A12460567000EBA3A7 /* data.json in Resources */,
+				3C63F8A12460567000EBA3A7 /* citiesData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,14 +397,15 @@
 				DEVELOPMENT_TEAM = R24G4TMJR4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Places SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lynneker.silva.Places-SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Places;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -409,14 +418,15 @@
 				DEVELOPMENT_TEAM = R24G4TMJR4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Places SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lynneker.silva.Places-SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Places;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

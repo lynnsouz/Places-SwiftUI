@@ -53,6 +53,6 @@ struct CategoryItem: View {
 struct CategoryRow_Previews: PreviewProvider {
     
     static var previews: some View {
-        CategoryRow(categoryName: "BRA 🇧🇷", items: placesData.filter({$0.contry == "BRA 🇧🇷"}))
+        CategoryRow(categoryName: "BRA 🇧🇷", items: citiesData.filter({$0.contry == "BRA 🇧🇷"}))
     }
 }

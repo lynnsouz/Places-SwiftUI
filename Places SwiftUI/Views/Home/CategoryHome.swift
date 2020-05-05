@@ -14,7 +14,7 @@ struct CategoryHome: View {
     
     var contries: [String: [City]] {
         Dictionary(
-            grouping: placesData,
+            grouping: placesData.sorted(by: { $0.name < $1.name }),
             by: { $0.contry }
         )
     }

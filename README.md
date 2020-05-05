@@ -22,3 +22,7 @@ Application based on Swift UI showing some places I've been.
 
 
 <img src="gif3.0.0.gif" style="height:500px;" height=500 alt="gif3.0.0"/>
+
+[v 4.0.0](https://github.com/lynnsouz/Places-SwiftUI/releases/tag/4.0.0) Home Interface and UIKit interactions.
+
+<img src="gif4.0.0.gif" style="height:500px;" height=500 alt="gif4.0.0"/><img src="gif4.0.1.gif" style="height:500px;" height=500 alt="gif4.0.1"/>

@@ -58,9 +58,9 @@ struct WatchCityDetail_Previews: PreviewProvider {
     static var previews: some View {
         let userData = UserData()
         return Group {
-            WatchCityDetail(city: userData.cities[3]).environmentObject(userData)
+            WatchCityDetail(city: userData.cities[2]).environmentObject(userData)
                 .previewDevice("Apple Watch Series 4 - 44mm")
-            WatchCityDetail(city: userData.cities[3]).environmentObject(userData)
+            WatchCityDetail(city: userData.cities[0]).environmentObject(userData)
                 .previewDevice("Apple Watch Series 2 - 38mm")
         }
     }

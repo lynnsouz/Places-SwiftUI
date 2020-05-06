@@ -13,7 +13,7 @@ struct CircleImage: View {
     var body: some View {
         image
             .frame(width: 200, height: 200)
-            .scaleEffect(1/10)
+            .scaleEffect(1/3)
             .clipShape(Circle())
             .overlay(Circle().stroke(Color.white, lineWidth: 2))
             .shadow(radius: 10)

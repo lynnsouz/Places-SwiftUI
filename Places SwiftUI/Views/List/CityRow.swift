@@ -15,10 +15,11 @@ struct CityRow: View {
         HStack {
             city.image
                 .resizable()
-                .frame(width: 56, height: 56)
+                .frame(width: 48, height: 48)
                 .scaledToFill()
+            
             Text(city.name)
-                .font(.title)
+                
             Spacer()
             if city.isFavorite {
                 Image(systemName: "star.fill")
@@ -33,12 +34,20 @@ struct CityRow: View {
 struct CityRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            CityRow(city: citiesData[0])
-            CityRow(city: citiesData[1])
-            CityRow(city: citiesData[2])
+            Group {
+                CityRow(city: citiesData[0])
+                CityRow(city: citiesData[1])
+                CityRow(city: citiesData[2])
+                CityRow(city: citiesData[3])
+                
+                
+                CityRow(city: citiesData[4])
+                
+            }
+            .previewLayout(.fixed(width: 300, height: 80))
             CityRow(city: citiesData[3])
-            CityRow(city: citiesData[4])
+                .previewDevice("Apple Watch Series 4 - 40mm")
         }
-        .previewLayout(.fixed(width: 300, height: 80))
+        
     }
 }

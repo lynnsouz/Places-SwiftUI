@@ -1,7 +1,7 @@
 # Places SwiftUI
 
 The project is compatible with **XCode 11.0** and **SwiftUI**.
-Compatibility: Requires **iOS 13.0 or later**. Compatible with **iPhone and iPod touch**.
+Compatibility: Requires **iOS 13.0 or later**. Compatible with **iPhone and iPod touch**. Requires **watchOS 6.2 or later**.
 
 
 Application based on Swift UI showing some Cities I've been.

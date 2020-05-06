@@ -46,7 +46,7 @@ struct CategoryHome: View {
                     CategoryRow(categoryName: key, items: self.contries[key]!)
                 }
                 .listRowInsets(EdgeInsets())
-                NavigationLink(destination: CityList().environmentObject(userData)) {
+                NavigationLink(destination: CityList { CityDetails(city: $0) }) {
                     Text("See All")
                 }
             }

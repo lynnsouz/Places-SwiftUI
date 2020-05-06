@@ -10,12 +10,12 @@ Application based on Swift UI showing some Cities I've been.
 | [v 1.0.0](https://github.com/lynnsouz/Places-SwiftUI/releases/tag/1.0.0) | [v 2.0.0](https://github.com/lynnsouz/Places-SwiftUI/releases/tag/2.0.0) | [v 3.0.0](https://github.com/lynnsouz/Places-SwiftUI/releases/tag/3.0.0) |
 | ------------------- | ------------------- | ------------------- |
 | Starting project. | Building Lists and Navigation. | Handling User Input. |
-| <img src="gif1.0.0.gif" style="height:500px;" height=500 alt="gif1.0.0"/>  | <img src="gif2.0.0.gif" style="height:500px;" height=500 alt="gif2.0.0.gif"/> | <img src="gif3.0.0.gif" style="height:500px;" height=500 alt="gif3.0.0"/> |
+| <img src="gif1.0.0.gif" height=500 alt="gif1.0.0"/>  | <img src="gif2.0.0.gif" height=500 alt="gif2.0.0.gif"/> | <img src="gif3.0.0.gif" height=500 alt="gif3.0.0"/> |
 
 
 | [v 4.0.0](https://github.com/lynnsouz/Places-SwiftUI/releases/tag/4.0.0) | Home Interface and UIKit interactions. | [v 4.1.0](https://github.com/lynnsouz/Places-SwiftUI/releases/tag/4.1.0) Apple Watch. |
 | ------------------- | -------------------  | -------------------  |
-| <img src="gif4.0.1.gif" style="height:500px;" height=500 alt="gif4.0.1"/> | <img src="gif4.0.0.gif" style="height:500px;" height=500 alt="gif4.0.0"/> | Home screen  <img src="home.PNG" style="height:100px;" height=100 alt="Home"/> Details screen <img src="detail.PNG" style="height:100px;" height=100 alt="Details"/> Notification screen <img src="not.PNG" style="height:100px;" height=100 alt="notification"/> | 
+| <img src="gif4.0.1.gif" height=500 alt="gif4.0.1"/> | <img src="gif4.0.0.gif" height=500 alt="gif4.0.0"/> | Home screen  <img src="home.PNG" height=150 alt="Home"/>   Details screen   <img src="detail.PNG" height=150 alt="Details"/>   Notification screen   <img src="not.PNG" height=150 alt="notification"/> | 
 
 
 

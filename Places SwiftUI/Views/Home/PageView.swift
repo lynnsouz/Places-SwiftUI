@@ -23,6 +23,7 @@ struct PageView<Page: View>: View {
             PageControl(numberOfPages: viewControllers.count, currentPage: $currentPage)
                 .padding(.trailing)
         }
+        .frame(height: 200.0)
     }
 }
 
